@@ -1,0 +1,10 @@
+<h1>Stories</h1>
+
+<% @posts.each do |t| %>
+    <ul>
+
+   <li> <%= t.title %><br/><br/>
+    <%= t.body %><br/><br/>
+    </li>
+    </ul>
+<% end %>
